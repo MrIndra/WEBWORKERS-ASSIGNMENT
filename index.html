@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="container p-5 text-center">
+    <h1>WEB WORKERS</h1>
+    <hr/>
+    <div class="row text-center">
+        <div class="col-lg-4 h1"><button id="btn" class="btn btn-large btn-success">Keep Changing Background Color</button></div>
+        <div class="col-lg-4 h1"><button id="api" class="btn btn-large btn-danger">Keep Loading data into Text Area</button></div>
+        <div class="col-lg-4 h1"><button id="reset" class="btn btn-large btn-info">Reset</button></div>
+    </div>
+    <textarea class="form-control" id="text" rows="13" cols="150" placeholder="Start writing...">
+    </textarea>
+    <div class="row text-center">
+        <div class="col-lg-6 h1"> CHARACTER COUNT <hr/><span id="charCount">0</span></div>
+        <div class="col-lg-6 h1">WORD COUNT <hr/><span id="wordCount">0</div>
+    </div>
+
+</body>
+<script src="./index.js"></script>
+</html>
+
+
